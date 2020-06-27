@@ -42,4 +42,10 @@ public class Dog
     {
         this.apartment = apartment;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Dog: " + "Breed = " + breed + " AvgWeight: " + avgWeight + " Apartment " + apartment + "\n";
+    }
 }
